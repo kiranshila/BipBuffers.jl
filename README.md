@@ -16,6 +16,8 @@ perform those operations. The writer/sender thread is in charge of
 
 An example usecase would be streaming time domain data and consuming in a sliding window in two separate threads.
 
+Inspired by Simon Cooke's [bi-partite circular buffer](https://www.codeproject.com/Articles/3479/The-Bip-Buffer-The-Circular-Buffer-with-a-Twist)
+
 ## Example
 ```julia
 using BipBuffers
