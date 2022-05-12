@@ -14,7 +14,7 @@ Each coordination variable is marked `@atomic`, so only single threads can
 perform those operations. The writer/sender thread is in charge of
 `write` and `watermark` and the reader/receiver is in charge of `read`.
 
-An example usecase would be streaming time domain data and consuming in a sliding window.
+An example usecase would be streaming time domain data and consuming in a sliding window in two separate threads.
 
 ## Example
 ```julia
