@@ -16,7 +16,7 @@ perform those operations. The writer/sender thread is in charge of
 
 An example usecase would be streaming time domain data and consuming in a sliding window in two separate threads.
 
-Inspired by Simon Cooke's [bi-partite circular buffer](https://www.codeproject.com/Articles/3479/The-Bip-Buffer-The-Circular-Buffer-with-a-Twist)
+Inspired by Simon Cooke's [bi-partite circular buffer](https://www.codeproject.com/Articles/3479/The-Bip-Buffer-The-Circular-Buffer-with-a-Twist) and a [Rust implementation](https://andrea.lattuada.me/blog/2019/the-design-and-implementation-of-a-lock-free-ring-buffer-with-contiguous-reservations.html)
 
 ## Example
 ```julia
